@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">raceMapper</string>
+    <string name="app_title">Race Mapper</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="location_permission">A permissão precisa ser concedida para que sua localizacao seja identificada.
+    </string>
+    <string name="you">você</string>
+    <string name="title_run">Correr</string>
+    <string name="title_run_history">Historico de corrida</string>
+    <string name="menu_weather">Informacoes Clima/Tempo</string>
+    <string name="menu_submenu_weather">Previsão do tempo de Hoje</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nohistory">Não há corridas para exibir no histórico.</string>
+    <string name="speed_init">-- m/s</string>
+
+</resources>

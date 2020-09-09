@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/iconIMG"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_runner"
+        android:importantForAccessibility="no"
+        local:layout_constraintStart_toStartOf="parent"
+        local:layout_constraintTop_toTopOf="parent"
+        local:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/titleTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        local:layout_constraintStart_toEndOf="@id/iconIMG"
+        local:layout_constraintTop_toTopOf="@id/iconIMG"
+        local:layout_constraintBottom_toBottomOf="@id/iconIMG"/>
+
+    <ProgressBar
+        android:id="@+id/serverPB"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        local:layout_constraintTop_toTopOf="@id/iconIMG"
+        local:layout_constraintBottom_toBottomOf="@id/iconIMG"
+        local:layout_constraintEnd_toEndOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>
